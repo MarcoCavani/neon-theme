@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Playfair+Display&display=swap");
+@font-face {
+  font-family: "Broadbay";
+  src: url("//db.onlinewebfonts.com/t/67fb32a0a3e760e11863ede6e965614b.eot");
+  src: url("//db.onlinewebfonts.com/t/67fb32a0a3e760e11863ede6e965614b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/67fb32a0a3e760e11863ede6e965614b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/67fb32a0a3e760e11863ede6e965614b.woff") format("woff"), url("//db.onlinewebfonts.com/t/67fb32a0a3e760e11863ede6e965614b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/67fb32a0a3e760e11863ede6e965614b.svg#Broadbay") format("svg");
+  src: url(../font/BroadbayNormal-JJv7.ttf);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+* a {
+  text-decoration: none;
+  color: #000;
+}
+
+* p {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.5rem;
+}
+
+* .wrapper {
+  width: 100%;
+  max-width: 1500px;
+  overflow: hidden;
+}
+
+* .wrapper header {
+  width: 100%;
+  max-width: 1500px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  max-height: 1080px;
+  background-image: url(../images/home-bg1.png), -webkit-gradient(linear, left top, right top, from(rgba(18, 214, 223, 0.68)), to(rgba(247, 15, 255, 0.68)));
+  background-image: url(../images/home-bg1.png), linear-gradient(90deg, rgba(18, 214, 223, 0.68) 0%, rgba(247, 15, 255, 0.68) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#78dced",endColorstr="#ff0f6a",GradientType=1);
+    background-repeat: no-repeat;
+}
+
+* .wrapper header canvas {
+  position: absolute;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  max-width: 1500px;
+}
+
+* .wrapper header .logo {
+  z-index: 99;
+  width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+* .wrapper header .logo h1 {
+  font-family: "Broadbay";
+  font-size: 7rem;
+  text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  margin: 0 auto;
+  color: #7cf4a0;
+}
+
+* .wrapper header .logo span {
+  font-family: "Broadbay";
+  font-size: 3rem;
+  color: #fff;
+}
+
+* .wrapper header #hamburgerMenu {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  background-color: #000;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10001;
+}
+
+* .wrapper header #hamburgerMenu span {
+  background-color: #fff;
+  width: 2rem;
+  height: .3rem;
+  margin-top: .3rem;
+}
+
+* .wrapper header #hamburgerMenu span:first-child {
+  margin-top: 1.25rem;
+}
+
+* .wrapper header nav {
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  background-color: #7cf4a0;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+  -webkit-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+  opacity: 0;
+}
+
+* .wrapper header nav ul {
+  margin: auto;
+}
+
+* .wrapper header nav ul li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+* .wrapper header nav ul li a {
+  text-decoration: none;
+  font-family: "Helvetica";
+  display: none;
+  font-size: 3rem;
+  color: #fff;
+}
+
+* .wrapper main {
+  width: 100%;
+}
+
+* .wrapper main h2 {
+  font-size: 4rem;
+  color: #000;
+  font-family: "Playfair Display", serif;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  margin: 2rem 0;
+}
+
+* .wrapper main #graduates {
+  background-color: #fff;
+  background-image: url(../images/abg-01.png);
+}
+
+* .wrapper main #projects {
+  background-color: red;
+  background-image: url(../images/abg-02.png);
+}
+
+* .wrapper main article {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+* .wrapper main article section {
+  margin: 2rem;
+}
+
+* .wrapper main article section h3 {
+  text-align: center;
+  font-family: "Helvetica";
+  font-size: 3rem;
+  font-weight: 300;
+  color: #000;
+  border: 2px solid;
+}
+
+* .wrapper main article section img {
+  height: 12em;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid goldenrod;
+}
+
+* .wrapper main article .flex-project-right {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+* .wrapper main article .flex-project-left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+* .wrapper main article .flex-project-right, * .wrapper main article .flex-project-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-width: 500px;
+  width: 50%;
+}
+
+* .wrapper main article .flex-project-right .parallax, * .wrapper main article .flex-project-left .parallax {
+  height: 505px;
+  overflow: hidden;
+  -ms-flex-preferred-size: 99%;
+      flex-basis: 99%;
+}
+
+* .wrapper main article .flex-project-right .bio-project, * .wrapper main article .flex-project-left .bio-project {
+  margin: 2rem 0 0 2rem;
+}
+
+* .wrapper main article .flex-project-right .bio-project h3 a, * .wrapper main article .flex-project-left .bio-project h3 a {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+* .wrapper main article .flex-project-right .bio-project .category, * .wrapper main article .flex-project-left .bio-project .category {
+  color: #999;
+  margin-bottom: 1rem;
+}
+
+* .wrapper footer {
+  width: 100%;
+  height: 300px;
+  background-color: #e94157;
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
