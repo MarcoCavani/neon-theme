@@ -1,91 +1,11 @@
-
-let hamburgerMenu = document.querySelector('#hamburgerMenu');
-let hamburgerElement = document.querySelectorAll('nav span');
-let navigation = document.querySelector('nav');
-let links = document.querySelectorAll('nav ul li a');
-let switcher = true;
-let students = document.querySelectorAll('.student');
+let projectView = `<h2 class="reveal">Projects</h2>
+                    <div class="art-deco-element"><img src="images/art-deco-logo-element2.png" alt="decoration"></div>
 
 
-function setModal(event){
-
-    let dataStudent = event.target.getAttribute('data-services-type');
-    console.log(dataStudent);
-    
-}
-
-function openModal(event){
-    
-    
-    // studentsID();
-
-
-}
-
-
-function menuOpen(e) {
-
-    let closed = false;
-    let opened = true;
-    
-    console.log(hamburgerElement);
-    hamburgerElement.forEach(element => {
-        console.log(element);
-    });
-
-    console.log(switcher);
-    
-    if(switcher){
-        navigation.style.opacity = '1';
-        navigation.style.height = "400px";
-        navigation.style.width = "400px";
-        links.forEach(element => {
-            element.style.display = 'inherit';
-        });
-        switcher = closed;
-
-        
-        
-       
-    }else if (!switcher){
-        navigation.style.opacity = '0';
-        navigation.style.height = "0px";
-        navigation.style.width = "0px";
-        links.forEach(element => {
-            element.style.display = 'none'
-        });
-        switcher = opened;
-        
-    }
-    
-
-
-
-
-}
-
-function hamburgerInit() {
-
-    hamburgerMenu.addEventListener('click', () => {
-
-        
-        menuOpen();
-
-
-    });
-
-
-    students.forEach(element => {
-        element.addEventListener('click', (e) =>{
-            
-            setModal(e);
-            openModal(e);
-            
-        })
-    });
-}
-
-window.onload = (event) => {
-
-    hamburgerInit();
-}
+                    <div class="project-container">
+                        <img src="images/project1/a.jpg" alt="screen-shot project image" class="img-heading">
+                        <h3>Alumni blog</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+                        <button data-stored="a" class="view">view</button>
+                        
+                    </div>`
