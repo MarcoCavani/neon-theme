@@ -44,7 +44,13 @@ $font-para: 'Mulish', sans-serif;
     padding: 0;
     font-size: 15px;
 
-
+#app{
+                    width: 100%;
+                    margin: 0 auto;
+                    max-width: 1500px;
+                    display: flex;
+                    justify-content: center;
+                }
     a{
         text-decoration: none;
         color: $shade2;
@@ -83,10 +89,7 @@ $font-para: 'Mulish', sans-serif;
             align-items: center;
             height: 600px;
             max-height: 1080px;
-
-
-
-            background: radial-gradient(circle, #01204d 0%, rgba(1, 32, 77, 0.7441351541) 15.2em, rgba(5, 231, 240, 0.2679446779) 17em, #d6a7ec 16em, #020833 18em);
+            background: radial-gradient(circle, #01204d 0%, #0dcaf099 15.2em, #020a3a 17em, #051347 16em, #020833 21em);
             background-repeat: no-repeat;
 
             .corner{
@@ -170,6 +173,9 @@ $font-para: 'Mulish', sans-serif;
                 flex-basis: 100%;
                 margin: 2rem 0 1rem 0;
                 text-align: center;
+                //                background: -webkit-linear-gradient(#d3a84c, #ffec94);
+                //                -webkit-background-clip: text;
+                //                -webkit-text-fill-color: transparent;
 
 
             }
@@ -178,6 +184,7 @@ $font-para: 'Mulish', sans-serif;
                 width: 100%;
                 margin: 0 auto;
                 text-align: center;
+                margin-top: 2rem;
 
             }
 
@@ -198,33 +205,75 @@ $font-para: 'Mulish', sans-serif;
                 background-attachment: fixed;
 
 
+                
+
+
+
                 h3,h4{
                     color: #ffffff;
                     font-family: 'Roboto', sans-serif;
                     margin: 1rem 0 0;
+                    text-transform: capitalize;
+                    //                    background: -webkit-linear-gradient(#d3a84c, #ffec94);
+                    //                    -webkit-background-clip: text;
+                    //                    -webkit-text-fill-color: transparent;
                 }
 
                 p{
                     color: white;
                     margin:  1rem;
+                    text-align: justify;
                 }
-                .view{
+
+                .button-frame{
+                    width: 200px;
+                    background-image: url(../images/button-frame.png);
 
 
-                    //                    height: 3rem;
-                    //                    width: 6rem;
+                }
+
+                .button-frame-xl{
+
+                    width: 400px;
+                    background-image: url(../images/button-frame-xl.png);
+
+                }
+
+
+                .button-frame, .button-frame-xl{
+
+
+                    margin: 0 auto;
+                    text-align: center;
+
+                    background-repeat: no-repeat;
+                    background-position: center;
                     padding: 1rem;
-                    border-radius: 3rem;
-                    float: right;
 
-                    -webkit-transition: all 0.2s ease-in;
-                    -moz-transition: all 0.2s ease-in;
-                    -o-transition: all 0.2s ease-in;
-                    transition: all 0.2s ease-in;
-                    color: #02072b;
-                    font-weight: bold;
+
+                }
+
+                .view{
                     font-size: 1.3rem;
-                    border: 2px solid #0dcaf0;
+                }
+
+                .view-xl{
+                    font-size: 2rem;
+
+                }
+
+                .view, .view-xl{
+
+
+
+                    padding: 1rem;
+                    color: #ffffff;
+                    font-weight: bold;
+
+                    background-color: transparent;
+                    border: none;
+                    width: 100%;
+
 
 
                 }
@@ -243,13 +292,20 @@ $font-para: 'Mulish', sans-serif;
                 .project-container-xl{
                     width: 750px;
                     background-color: #020629c2;
-                    border: 4pt solid #ffffff;
                     margin: 2rem;
-                    padding: 1rem;
+                    padding: 3rem;
                     box-shadow: 2px 2px 2px 22px #0dcaf052;
                     transition: 3s all;
+                    background-image: url(../images/corners-xl.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    margin: 0 auto;
+                    margin-top: 2rem;
+                    margin-bottom: 2rem;
 
-
+                    .immage-students-cotainer{
+                        text-align: center;
+                    }
 
                     .img-heading{
 
@@ -270,19 +326,19 @@ $font-para: 'Mulish', sans-serif;
                 .project-container{
 
                     width: 545px;
-    height: 525px;
-    background-color: #020629c2;
-    /* border: 4pt solid #ffffff; */
-    box-shadow: 2px 2px 2px 22px #5cb0c133;
-    margin: 2rem;
-    padding: 1rem;
-    position: relative;
-    cursor: alias;
-    padding: 3rem;
-    background-image: url(../images/corners.png);
-    background-repeat: no-repeat;
-    background-position: center;
- 
+                    height: 567px;
+                    background-color: #020629c2;
+                    /* border: 4pt solid #ffffff; */
+                    box-shadow: 2px 2px 2px 22px #5cb0c133;
+                    margin: 2rem;
+                    padding: 1rem;
+                    position: relative;
+
+                    padding: 3rem;
+                    background-image: url(../images/corners.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+
 
 
                     .img-heading{
