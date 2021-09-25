@@ -98,7 +98,7 @@
   width: 100%;
 }
 * .wrapper main h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #fff;
   font-family: "Broadbay", serif;
   flex-basis: 100%;
@@ -109,7 +109,6 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  margin-top: 2rem;
 }
 * .wrapper main article {
   width: 100%;
@@ -117,7 +116,6 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  padding: 2%;
   background-color: #020833;
   background-image: url(../images/home-bg1.2.png);
   background-position: center;
@@ -171,7 +169,6 @@
   width: 750px;
   background-color: #020629c2;
   margin: 2rem;
-  padding: 3rem;
   box-shadow: 2px 2px 2px 22px #0dcaf052;
   transition: 3s all;
   background-image: url(../images/corners-xl.png);
