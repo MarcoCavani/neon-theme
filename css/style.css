@@ -33,7 +33,6 @@
 }
 * .wrapper {
   width: 100%;
-  max-width: 1500px;
   overflow: hidden;
   margin: 0 auto;
   background-image: url(../images/home-bg1.2.png);
@@ -47,7 +46,6 @@
 * .wrapper header {
   width: 100%;
   margin: 0 auto;
-  max-width: 1500px;
   position: relative;
   display: flex;
   align-items: center;
