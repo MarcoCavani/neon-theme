@@ -68,7 +68,6 @@
 * .wrapper header canvas {
   position: absolute;
   transform: scale(1.5);
-  max-width: 1500px;
   width: 100%;
   pointer-events: none;
 }
