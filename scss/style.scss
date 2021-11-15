@@ -283,7 +283,7 @@ $font-para: 'Mulish', sans-serif;
 
                     .student{
 
-                        margin: 1rem;
+                        margin: 2rem .5rem;
 
                     }
 
@@ -313,10 +313,11 @@ $font-para: 'Mulish', sans-serif;
                         max-height: 250px;
                         width: 100%;
                         margin: 0 auto;
+                        margin-top: 2rem;
                     }
 
                     .student{
-                        width: 6.5rem;
+                        width: 9rem;
                         border-radius: 100%;
                     }
 

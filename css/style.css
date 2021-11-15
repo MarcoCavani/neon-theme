@@ -162,7 +162,7 @@
   width: 100%;
 }
 * .wrapper main article .immage-students-cotainer .student {
-  margin: 1rem;
+  margin: 2rem 0.5rem;
 }
 * .wrapper main article .project-container-xl {
   width: 750px;
@@ -185,9 +185,10 @@
   max-height: 250px;
   width: 100%;
   margin: 0 auto;
+  margin-top: 2rem;
 }
 * .wrapper main article .project-container-xl .student {
-  width: 6.5rem;
+  width: 9rem;
   border-radius: 100%;
 }
 * .wrapper main article .project-container {

@@ -3,22 +3,28 @@ const projectsJSON = `[
 
 {
 "id" : "0",
-"image" : "images/projects-screenshoot/screenshoot-alumni.jpg",
-"title" : "tafe alumni",
-"description" : "The Alunmi website is for current and former students of Central and North Metropolitan TAFE, to enable them to connect and remain in contact with lecturers and other students (current and former). Members can keep track of where former students are and what they are doing in industry, and have a forum to share their experiences.", 
+"image" : "images/projects-screenshoot/boom.jpg",
+"title" : "Boom Radio",
+"description" : "Boom Radio is a post driven platform, that allows the various students to be able to create posts and additional pages. The website also includes a radio player featured on every page that lets users listen to the student’s radio shows while they browse the site. The design was themed around comic books.", 
 
 "data-stored" : "a",
 "studentsInvolved" : [
 {
-"name" : "Marco", "image" : "images/portraits/portrait1.jpg", "link" : "https://mwd.world"
+"name" : "Elliot", "image" : "images/portraits/student1.jpg", "link" : "https://webbcreative.net/"
 },
 {
-"name" : "Samia", "image" : "images/portraits/portrait3.jpg", "link" : "https://mwd.world/"
+"name" : "Silvena", "image" : "images/portraits/student2.jpg", "link" : "images/portraits/student2.jpg"
 },
 
 {
 
-"name" : "Samia", "image" : "images/portraits/portrait4.jpg", "link" : "https://mwd.world/"
+"name" : "Chad", "image" : "images/portraits/student3.jpg", "link" : "https://www.portfolioc.com.au/"
+
+},
+
+{
+
+"name" : "Michelle", "image" : "images/portraits/portrait1.jpg", "link" : "https://www.linkedin.com/in/michelle-mei-yee-yau-66b37b65"
 
 }
 ],
