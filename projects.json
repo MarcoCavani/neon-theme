@@ -24,48 +24,209 @@ const projectsJSON = `[
 
 {
 
-"name" : "Michelle", "image" : "images/portraits/portrait1.jpg", "link" : "https://www.linkedin.com/in/michelle-mei-yee-yau-66b37b65"
+"name" : "Michelle", "image" : "images/portraits/student13.jpg", "link" : "https://www.linkedin.com/in/michelle-mei-yee-yau-66b37b65"
 
 }
 ],
-"url" : "https://https://alumni.screencraft.net.au/"
+"url" : "images/projects-screenshoot/boom.jpg"
+
+},
+{
+"id" : "9",
+"image" : "images/projects-screenshoot/boom.jpg",
+"title" : "BOOM Radio App",
+"description" : "BOOM Radio is NM TAFE’s student-run radio station. Android and iOS apps have been developed to allow live streaming of the station, as well as browsing their news articles, shows and more. All content matches the BOOM radio website, for easy management by the station.",
+"data-stored" : "a",
+"studentsInvolved" : [
+{
+"name" : "Name", "image" : "images/portraits/student24.jpg", "link" : "https://linktr.ee/DavidStern"
+},
+
+{
+"name" : "Name", "image" : "images/portraits/student25.jpg", "link" : "https://linktr.ee/tom.egerton"
+}
+],
+"url" : "images/projects-screenshoot/brick.jpg"
 
 },
 
 {
 "id" : "1",
-"image" : "images/projects-screenshoot/screenshoot-lego.png",
-"title" : "lego collector",
-"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magnis dis parturient montes nascetur ridiculus mus mauris. Enim blandit volutpat maecenas volutpat blandit. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Aenean sed  ",
+"image" : "images/projects-screenshoot/lego.jpg",
+"title" : "Lego Collector",
+"description" : "This website provides our client a way to illustrate his Lego collection. It can be used as an online show case. Additionally, the collector can update the collection from the admin panel. This way the contents will always be updated.",
 "data-stored" : "a",
 "studentsInvolved" : [
 {
-"name" : "Name", "image" : "images/portraits/portrait5.jpg", "link" : "https://mwd.world"
+"name" : "Name", "image" : "images/portraits/student7.jpg", "link" : "images/portraits/student7.jpg"
 },
 {
-"name" : "Name", "image" : "images/portraits/portrait6.jpg", "link" : "https://mwd.world/about"
+"name" : "Name", "image" : "images/portraits/student8.jpg", "link" : "https://sk-webport.netlify.app"
+},
+{
+"name" : "Name", "image" : "images/portraits/student9.jpg", "link" : "images/portraits/student9.jpg"
+},
+{
+"name" : "Name", "image" : "images/portraits/student10.jpg", "link" : "images/portraits/student10.jpg"
 }
 ],
-"url" : "https://www.lego.com/en-au"
+"url" : "images/projects-screenshoot/lego.jpg"
 
 },
 {
 "id" : "2",
-"image" : "images/projects-screenshoot/screenshoot-gs.png",
-"title" : "grad-show 2019",
-"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Magnis dis parturient montes nascetur ridiculus mus mauris. Enim blandit volutpat maecenas volutpat blandit. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Aenean sed ",
+"image" : "images/projects-screenshoot/library.jpg",
+"title" : "Library",
+"description" : "The library app can be used by students on their orientation day or during their studies. It provides useful information about the library. Additionally, the users can test is knowledge by playing the quiz. All quiz can be updated.",
 "data-stored" : "a",
 "studentsInvolved" : [
 {
-"name" : "Marco", "image" : "images/portraits/portrait8.jpg", "link" : "https://mwd.world"
+"name" : "Name", "image" : "images/portraits/student4.jpg", "link" : "images/portraits/student4.jpg"
 },
 {
-"name" : "Samia", "image" : "images/portraits/portrait1.jpg", "link" : "https://mwd.world/about"
+"name" : "Name", "image" : "images/portraits/student5.jpg", "link" : "images/portraits/student5.jpg"
+},
+{
+"name" : "Name", "image" : "images/portraits/student6.jpg", "link" : "images/portraits/student6.jpg"
 }
 ],
-"url" : "https://gradshow.screencraft.net.au/"
+"url" : "images/projects-screenshoot/library.jpg"
+
+},
+{
+"id" : "3",
+"image" : "images/projects-screenshoot/alumni.jpg",
+"title" : "Alumni",
+"description" : "TAFE Alumni is a portal for students who have graduated from NMTAFE. It Provides Them a way to keep in contact after the completion of the course. students can see events and blog posts from other scholars and share their bright future after TAFE.",
+"data-stored" : "a",
+"studentsInvolved" : [
+{
+"name" : "Name", "image" : "images/portraits/student11.jpg", "link" : "images/portraits/student11.jpg"
+},
+
+{
+"name" : "Name", "image" : "images/portraits/student12.jpg", "link" : "images/portraits/student12.jpg"
+}
+],
+"url" : "images/projects-screenshoot/alumni.jpg"
+
+},
+
+{
+"id" : "4",
+"image" : "images/projects-screenshoot/wayFinder.jpg",
+"title" : "Wayfinder App",
+"description" : "The Wayfinder application aims to help new students, lecturers, and other visitors navigate TAFE campuses. The application will allow users to select a starting location and their intended destination to create a route displayed on the map.",
+"data-stored" : "a",
+"studentsInvolved" : [
+{
+"name" : "Name", "image" : "images/portraits/student14.jpg", "link" : "images/portraits/student14.jpg"
+},
+
+{
+"name" : "Name", "image" : "images/portraits/student15.jpg", "link" : "images/portraits/student15.jpg"
+}
+],
+"url" : "images/projects-screenshoot/wayFinderShowCase.jpg"
+
+},
+{
+"id" : "5",
+"image" : "images/projects-screenshoot/navy.jpg",
+"title" : "Navy Food Security",
+"description" : "This website and mobile application will be created for use by the Australian Navy. It is going to give users the ability to create a food order with information like contents, delivery location, status, and preparation information.",
+"data-stored" : "a",
+"studentsInvolved" : [
+{
+"name" : "Name", "image" : "images/portraits/student16.jpg", "link" : "images/portraits/student16.jpg"
+},
+
+{
+"name" : "Name", "image" : "images/portraits/student17.jpg", "link" : "https://www.linkedin.com/in/kyana-bowers-202573159/"
+}
+],
+"url" : "https://github.com/ThatOneGal/NavyFoodSecurity"
+
+},
+{
+"id" : "6",
+"image" : "images/projects-screenshoot/fishBee.jpg",
+"title" : "FishBEE",
+"description" : "FishBEE is currently operating their business at the Manning Farmers Market. They are extremely passionate about our Australian Native Bees. We would like to help them by spreading the word out using the power of the web.",
+"data-stored" : "a",
+"studentsInvolved" : [
+{
+"name" : "Name", "image" : "images/portraits/student18.jpg", "link" : "images/portraits/student18.jpg"
+}
+
+],
+"url" : "images/projects-screenshoot/fishBee.jpg"
+
+},
+{
+"id" : "7",
+"image" : "images/projects-screenshoot/brick.jpg",
+"title" : "Brickin’it",
+"description" : "Brickin’it is an amazing app that allows you to access your favorite Lego sets anywhere from your mobile phone. It allows you to have custom Collections to add individual sets too. It can scan a barcode on your Lego Box",
+"data-stored" : "a",
+"studentsInvolved" : [
+{
+"name" : "Name", "image" : "images/portraits/student19.jpg", "link" : "https://www.linkedin.com/in/dylan-valverde"
+},
+
+{
+"name" : "Name", "image" : "images/portraits/student20.jpg", "link" : "https://www.linkedin.com/in/michael-soares-poeira-5b188b179/"
+},
+
+{
+"name" : "Name", "image" : "images/portraits/student15.jpg", "link" : "https://www.linkedin.com/in/giovanni-costa-080a79175/"
+}
+],
+"url" : "images/projects-screenshoot/brick.jpg"
+
+},
+{
+"id" : "8",
+"image" : "images/projects-screenshoot/makeUp.jpg",
+"title" : "Clarice Turner Make-Up Artist",
+"description" : "This website aiming to reach industry peers as a TV and Theatre production Makeup Artist. The site features standard components home, about and contact page along with custom gallery page, appointment booking system and testimonial widgets insertable to all pages.",
+"data-stored" : "a",
+"studentsInvolved" : [
+{
+"name" : "Name", "image" : "images/portraits/student21.jpg", "link" : "https://zaymay.com/"
+},
+
+{
+"name" : "Name", "image" : "images/portraits/student22.jpg", "link" : "images/portraits/student22.jpg"
+},
+
+{
+"name" : "Name", "image" : "images/portraits/student23.jpg", "link" : "images/portraits/student23.jpg"
+}
+],
+"url" : "images/projects-screenshoot/brick.jpg"
+
+},
+{
+"id" : "10",
+"image" : "images/projects-screenshoot/greenHouse.jpg",
+"title" : "Green House",
+"description" : "BOOM Radio is NM TAFE’s student-run radio station. Android and iOS apps have been developed to allow live streaming of the station, as well as browsing their news articles, shows and more. All content matches the BOOM radio website, for easy management by the station.",
+"data-stored" : "a",
+"studentsInvolved" : [
+{
+"name" : "Name", "image" : "images/portraits/student26.jpg", "link" : "https://linktr.ee/DavidStern"
+},
+
+{
+"name" : "Name", "image" : "images/portraits/student27.jpg", "link" : "https://linktr.ee/tom.egerton"
+}
+],
+"url" : "images/projects-screenshoot/brick.jpg"
 
 }
+
+
 
 
 
