@@ -57,10 +57,10 @@ const projectsJSON = `[
 "data-stored" : "a",
 "studentsInvolved" : [
 {
-"name" : "Name", "image" : "images/portraits/student4.jpg", "link" : "images/portraits/student4.jpg"
+"name" : "Name", "image" : "images/portraits/student4.jpg", "link" : "https://jesseobrien.net/"
 },
 {
-"name" : "Name", "image" : "images/portraits/student5.jpg", "link" : "images/portraits/student5.jpg"
+"name" : "Name", "image" : "images/portraits/student5.jpg", "link" : "https://rushilportfolio.netlify.app"
 },
 {
 "name" : "Name", "image" : "images/portraits/student6.jpg", "link" : "https://carlharicombe.netlify.app/"
