@@ -84,7 +84,7 @@ const projectsJSON = `[
 "name" : "Name", "image" : "images/portraits/student12.jpg", "link" : "images/portraits/student12.jpg"
 }
 ],
-"url" : "images/projects-screenshoot/alumni.jpg"
+"url" : "https://2021.alumni.screencraft.net.au"
 
 },
 
@@ -194,7 +194,7 @@ const projectsJSON = `[
 "name" : "Name", "image" : "images/portraits/student7.jpg", "link" : "https://laurarwebdevelopment.org/"
 },
 {
-"name" : "Name", "image" : "images/portraits/student8.jpg", "link" : "https://sk-webport.netlify.app"
+"name" : "Name", "image" : "images/portraits/student8.jpg", "link" : "https://skwebport.netlify.app/"
 },
 {
 "name" : "Name", "image" : "images/portraits/student9.jpg", "link" : "http://nikita-kumar.com/"
