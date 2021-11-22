@@ -3,7 +3,7 @@ const projectsJSON = `[
 
 {
 "id" : "0",
-"image" : "images/projects-screenshoot/boom.jpg",
+"image" : "images/projects-screenshoot/boomWeb.jpg",
 "title" : "Boom Radio",
 "description" : "Boom Radio is a post driven platform, that allows the various students to be able to create posts and additional pages. The website also includes a radio player featured on every page that lets users listen to the student’s radio shows while they browse the site. The design was themed around comic books.", 
 
@@ -32,7 +32,7 @@ const projectsJSON = `[
 
 },
 {
-"id" : "9",
+"id" : "1",
 "image" : "images/projects-screenshoot/boom.jpg",
 "title" : "BOOM Radio App",
 "description" : "BOOM Radio is NM TAFE’s student-run radio station. Android and iOS apps have been developed to allow live streaming of the station, as well as browsing their news articles, shows and more. All content matches the BOOM radio website, for easy management by the station.",
@@ -46,31 +46,7 @@ const projectsJSON = `[
 "name" : "Name", "image" : "images/portraits/student25.jpg", "link" : "https://linktr.ee/tom.egerton"
 }
 ],
-"url" : "images/projects-screenshoot/brick.jpg"
-
-},
-
-{
-"id" : "1",
-"image" : "images/projects-screenshoot/lego.jpg",
-"title" : "Lego Collector",
-"description" : "This website provides our client a way to illustrate his Lego collection. It can be used as an online show case. Additionally, the collector can update the collection from the admin panel. This way the contents will always be updated.",
-"data-stored" : "a",
-"studentsInvolved" : [
-{
-"name" : "Name", "image" : "images/portraits/student7.jpg", "link" : "images/portraits/student7.jpg"
-},
-{
-"name" : "Name", "image" : "images/portraits/student8.jpg", "link" : "https://sk-webport.netlify.app"
-},
-{
-"name" : "Name", "image" : "images/portraits/student9.jpg", "link" : "images/portraits/student9.jpg"
-},
-{
-"name" : "Name", "image" : "images/portraits/student10.jpg", "link" : "images/portraits/student10.jpg"
-}
-],
-"url" : "images/projects-screenshoot/lego.jpg"
+"url" : "images/projects-screenshoot/boomRadioShowCase.jpg"
 
 },
 {
@@ -87,7 +63,7 @@ const projectsJSON = `[
 "name" : "Name", "image" : "images/portraits/student5.jpg", "link" : "images/portraits/student5.jpg"
 },
 {
-"name" : "Name", "image" : "images/portraits/student6.jpg", "link" : "images/portraits/student6.jpg"
+"name" : "Name", "image" : "images/portraits/student6.jpg", "link" : "https://carlharicombe.netlify.app/"
 }
 ],
 "url" : "images/projects-screenshoot/library.jpg"
@@ -101,7 +77,7 @@ const projectsJSON = `[
 "data-stored" : "a",
 "studentsInvolved" : [
 {
-"name" : "Name", "image" : "images/portraits/student11.jpg", "link" : "images/portraits/student11.jpg"
+"name" : "Name", "image" : "images/portraits/student11.jpg", "link" : "https://eazytools.online/portfolio/"
 },
 
 {
@@ -120,11 +96,11 @@ const projectsJSON = `[
 "data-stored" : "a",
 "studentsInvolved" : [
 {
-"name" : "Name", "image" : "images/portraits/student14.jpg", "link" : "images/portraits/student14.jpg"
+"name" : "Name", "image" : "images/portraits/student14.jpg", "link" : "https://linktr.ee/NathanChai"
 },
 
 {
-"name" : "Name", "image" : "images/portraits/student15.jpg", "link" : "images/portraits/student15.jpg"
+"name" : "Name", "image" : "images/portraits/student28.jpg", "link" : "https://www.linkedin.com/in/axeloliver/"
 }
 ],
 "url" : "images/projects-screenshoot/wayFinderShowCase.jpg"
@@ -156,7 +132,7 @@ const projectsJSON = `[
 "data-stored" : "a",
 "studentsInvolved" : [
 {
-"name" : "Name", "image" : "images/portraits/student18.jpg", "link" : "images/portraits/student18.jpg"
+"name" : "Name", "image" : "images/portraits/student18.jpg", "link" : "https://github.com/profiteroles"
 }
 
 ],
@@ -182,7 +158,7 @@ const projectsJSON = `[
 "name" : "Name", "image" : "images/portraits/student15.jpg", "link" : "https://www.linkedin.com/in/giovanni-costa-080a79175/"
 }
 ],
-"url" : "images/projects-screenshoot/brick.jpg"
+"url" : "images/projects-screenshoot/brickShowCase.jpg"
 
 },
 {
@@ -204,25 +180,49 @@ const projectsJSON = `[
 "name" : "Name", "image" : "images/portraits/student23.jpg", "link" : "images/portraits/student23.jpg"
 }
 ],
-"url" : "images/projects-screenshoot/brick.jpg"
+"url" : "https://zainaba.sg-host.com/"
 
 },
+{
+"id" : "9",
+"image" : "images/projects-screenshoot/lego.jpg",
+"title" : "Lego Collector",
+"description" : "This website provides our client a way to illustrate his Lego collection. It can be used as an online show case. Additionally, the collector can update the collection from the admin panel. This way the contents will always be updated.",
+"data-stored" : "a",
+"studentsInvolved" : [
+{
+"name" : "Name", "image" : "images/portraits/student7.jpg", "link" : "https://laurarwebdevelopment.org/"
+},
+{
+"name" : "Name", "image" : "images/portraits/student8.jpg", "link" : "https://sk-webport.netlify.app"
+},
+{
+"name" : "Name", "image" : "images/portraits/student9.jpg", "link" : "http://nikita-kumar.com/"
+},
+{
+"name" : "Name", "image" : "images/portraits/student10.jpg", "link" : "https://www.dylanwei.com/"
+}
+],
+"url" : "images/projects-screenshoot/lego.jpg"
+
+},
+
 {
 "id" : "10",
 "image" : "images/projects-screenshoot/greenHouse.jpg",
 "title" : "Green House",
-"description" : "BOOM Radio is NM TAFE’s student-run radio station. Android and iOS apps have been developed to allow live streaming of the station, as well as browsing their news articles, shows and more. All content matches the BOOM radio website, for easy management by the station.",
+"description" : "The Greed House App ensure the greenhouse eco-system’s stability. In fact, it is capable of storing and elaborating sensible data like the atmosphere's temperature and humidity. This app is design for greenhouses only  but, it could be extended to other environments.",
 "data-stored" : "a",
 "studentsInvolved" : [
 {
-"name" : "Name", "image" : "images/portraits/student26.jpg", "link" : "https://linktr.ee/DavidStern"
+"name" : "Name", "image" : "images/portraits/student26.jpg", "link" : "https://www.linkedin.com/in/sydney-dela-fuente-8587791b3/"
 },
 
 {
-"name" : "Name", "image" : "images/portraits/student27.jpg", "link" : "https://linktr.ee/tom.egerton"
+"name" : "Name", "image" : "images/portraits/student27.jpg", "link" : "https://www.linkedin.com/in/vushesh-dookheea/"
 }
 ],
-"url" : "images/projects-screenshoot/brick.jpg"
+"url" : "images/projects-screenshoot/greenHouseShowCase.jpg"
 
 }
 
