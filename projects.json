@@ -28,7 +28,7 @@ const projectsJSON = `[
 
 }
 ],
-"url" : "images/projects-screenshoot/boom.jpg"
+"url" : "http://chapterseventyseven.com/boomradio2/wordpress/"
 
 },
 {
@@ -81,7 +81,7 @@ const projectsJSON = `[
 },
 
 {
-"name" : "Name", "image" : "images/portraits/student12.jpg", "link" : "images/portraits/student12.jpg"
+"name" : "Name", "image" : "images/portraits/student12.jpg", "link" : "https://www.linkedin.com/in/samia-akand-00177a91"
 }
 ],
 "url" : "https://2021.alumni.screencraft.net.au"
@@ -114,7 +114,7 @@ const projectsJSON = `[
 "data-stored" : "a",
 "studentsInvolved" : [
 {
-"name" : "Name", "image" : "images/portraits/student16.jpg", "link" : "images/portraits/student16.jpg"
+"name" : "Name", "image" : "images/portraits/student16.jpg", "link" : "https://www.linkedin.com/in/william-te-9179341b7/"
 },
 
 {
@@ -158,7 +158,7 @@ const projectsJSON = `[
 "name" : "Name", "image" : "images/portraits/student15.jpg", "link" : "https://www.linkedin.com/in/giovanni-costa-080a79175/"
 }
 ],
-"url" : "images/projects-screenshoot/brickShowCase.jpg"
+"url" : "https://app.brickin-it.screencraft.net.au/"
 
 },
 {
@@ -203,7 +203,7 @@ const projectsJSON = `[
 "name" : "Name", "image" : "images/portraits/student10.jpg", "link" : "https://www.dylanwei.com/"
 }
 ],
-"url" : "images/projects-screenshoot/lego.jpg"
+"url" : "https://web.brickin-it.screencraft.net.au/"
 
 },
 
